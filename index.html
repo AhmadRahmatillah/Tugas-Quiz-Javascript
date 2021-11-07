@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Quiz Javascript</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+	<body>
+	<center>
+	<h1>FRUIT MART</h1>
+	<h3>DAFTAR HARGA BUAH</h3>
+	<ul>
+		<li>Apel - Rp20.000<small> / kg</small></li>
+		<li>Alpukat - Rp30.000<small> / kg</small></li>
+		<li>Stroberi - Rp15.000<small> / kg</small></li>
+		<li>Semangka - Rp6.000<small> / kg</small></li>
+		<li>Mangga - Rp10.000<small> / kg</small></li>
+		<li>Kiwi - Rp40.000<small> / kg</small></li>
+	</ul>
+	
+	<hr>
+	<label for="buah">Buah : </label>
+	<select id="buah">
+		<option value="Apel">Apel</option>
+		<option value="Alpukat">Alpukat</option>
+		<option value="Stroberi">Stroberi</option>
+		<option value="Semangka">Semangka</option>
+		<option value="Mangga">Mangga</option>
+		<option value="Kiwi">Kiwi</option>
+	</select>
+	<br><br>
+	<input type="number" id="kilo" placeholder="Jumlah Kilo Gram">
+	<br><br>
+	<input type="number" id="diskon" placeholder="Masukkan Diskon (0% - 100%)">
+	<br><br>
+	<button onclick="proses()">Total</button>
+	<hr>
+	
+	<h1>Keterangan:</h1>
+	<p id="total">---</p>
+	</center>
+
+</body>
+</html>
